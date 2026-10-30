@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <h1>Example</h1>
+    <script>
+        console.log("I'm printing to console!");
+        const name = prompt("Type your name. ");
+            console.log("shalom, " + name);
+            document.write("shalom," + name);
+
+
+        const int1 = parseInt(prompt("Anna luku"));
+        const int2 = parseInt(prompt("Anna luku"));
+        const int3 = parseInt(prompt("Anna luku"));
+            const summa = int1 + int2 + int3;
+            document.write("<br>" + summa);
+
+
+        const heitot = parseInt(prompt("heittojen määrä"));
+        let heitto_tulos = 0;
+
+        for (let i = 0; i < heitot; i++) {
+            let heitto = Math.floor(Math.random() * 6) + 1;
+            heitto_tulos += heitto;
+        }        
+        document.write("<br>" + heitto_tulos);
+
+
+        const num = parseInt(prompt("anna luku"));
+        let alkuluku = true;
+        if (num < 2) {alkuluku = false;
+        }
+      for (let i = 2; i < num; i++) {
+        if (num % i == 0) {
+          alkuluku = false;
+        }
+        }
+        if (alkuluku) {document.write("<br>"+ num + " on alkuluku")}
+        else {
+            document.write("<br>" + num + "ei ole alkuluku");
+        }
+    </script>
+    
+  </body>
+</html>
