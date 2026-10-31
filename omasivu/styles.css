@@ -5,8 +5,18 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 text-align: center;
 }
 
-.laatikko {
+.ylaatikko {
+    display: flex;
+    justify-content: center;
+    background-color: darkslategrey;
+    height: 100px;  
+    margin: 50px 50px 0px;
+}
+
+.klaatikko {
+    display: flex;
     background-color: grey;
-    width: 200px;
-    height: 30%;
+    height: 300px;
+    margin: 0px 50px;
+
 }
