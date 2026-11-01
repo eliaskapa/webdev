@@ -80,34 +80,63 @@ line-height: 0.1;
 }
 
 .TuoteLaatikko1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color:darkslategray;
-    height: 50%;
+    height: 450px;
     width: 30%;
-    margin: 50px;
+    margin: 20px;
+}
+
+.TuoteTeksti1 {
+    text-align: left;
+
+}
+
+.KKuva1 img {
+    object-fit: contain;
+    float: right;
+    height: 450px;
+    margin: 0px;
+}
+
+.KKuva1 {
+    display: flow-root;
+    height: 100%;
 }
 
 .TuoteLaatikko2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color:darkslategray;
-    height: 50%;
+    height: 60%;
     width: 30%;
-    margin: 50px;
+    margin: 20px;
 
 }
 
+.KKuva2 img {
+    object-fit: contain;
+    float: right;
+    height: 450px;
+    margin: 0px;
+}
+
+.KKuva2 {
+    display: flow-root;
+    height: 100%;
+}
+
+.TuoteTeksti2 {
+    text-align: left;
+    
+}
+
 .TuoteLaatikko3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color:darkslategray;
-    height: 50%;
+    height: 60%;
     width: 30%;
-    margin: 50px;
+    margin: 20px;
+}
+
+.TuoteTeksti3 {
+    
 }
 
 .Klaatikko2 {
@@ -119,8 +148,39 @@ line-height: 0.1;
     height: 600px;
     margin: 0px 100px;
 }
+.TuoteLaatikko4 {
+    background-color:darkslategray;
+    height: 60%;
+    width: 30%;
+    margin: 20px;
+}
 
+.TuoteTeksti4 {
 
+ 
+}
+
+.TuoteLaatikko5 {
+    background-color:darkslategray;
+    height: 60%;
+    width: 30%;
+    margin: 20px;
+}
+
+.TuoteTeksti5 {
+    
+}
+
+.TuoteLaatikko6 {
+    background-color:darkslategray;
+    height: 60%;
+    width: 30%;
+    margin: 20px;
+}
+
+.TuoteTeksti6 {
+  
+}
 
 .Alaatikko {
     display: flex;
