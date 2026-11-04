@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <script>
+        //tehtävä 1
+        const luku1 = parseInt(prompt("luku1"));
+        const luku2 = parseInt(prompt("luku2"));
+        const luku3 = parseInt(prompt("luku3"));
+        const luku4 = parseInt(prompt("luku4"));
+        const luku5 = parseInt(prompt("luku5"));
+
+
+        const luvut = [luku1, luku2, luku3, luku4, luku5];
+        document.write(luvut + "<br>");
+
+        for (let i = luvut.length - 1; i >= 0; i--)
+            {console.log("luku:", luvut[i])};
+
+        //tehtävä 6
+
+
+        function RNG() {
+            const RNGLista = [];
+            let random;
+
+                while (true) {
+                random = Math.floor(Math.random() * 6) + 1;
+                RNGLista.push(random);
+
+                if (random1 === 6){
+                    break;}
+                }
+        return RNGLista;
+        }
+
+        const tulos = RNG();
+
+
+        document.write(tulos + "<br>");
+
+
+
+    </script>
+
+    
+</body>
+
+
+</html>
