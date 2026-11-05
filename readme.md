@@ -16,10 +16,11 @@ Yhteensä: 10p
 
 [(github linkki)](https://github.com/eliaskapa/webdev/blob/main/js3/js-03.html)
 
-Completed assignments JS mod 1 ja 2:
+Completed assignments JS mod 3:
 - Task 1: 2 p
+- Task 3: 2 p
 - Task 6: 2 p
 - Task 7: 2 p
-- Task :   p
-- Task :   p
+- Task 8: 2 p
+
 Yhteensä: 10p
