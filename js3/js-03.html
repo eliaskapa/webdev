@@ -7,6 +7,9 @@
 </head>
 
 <body>
+
+    <div id="rakit"></div>
+
     <script>
         //tehtävä 1
         const luku1 = parseInt(prompt("luku1"));
@@ -15,15 +18,31 @@
         const luku4 = parseInt(prompt("luku4"));
         const luku5 = parseInt(prompt("luku5"));
 
-
         const luvut = [luku1, luku2, luku3, luku4, luku5];
         document.write(luvut + "<br>");
 
         for (let i = luvut.length - 1; i >= 0; i--)
-            {console.log("luku:", luvut[i])};
+            {console.log("luku:", luvut[i]);
+            
+            }
 
+
+        //Tehtävä 3
+
+        const koirat = [];
+
+        for (let i = 1; i <= 6; i++) { 
+        const nimi = prompt("kerro koiran" + i + " nimi");
+        koirat.push(nimi);
+        }
+
+        koirat.sort((a, b) => b.localeCompare(a, "fi"));
+
+        const kohdeElementti = document.getElementById("rakit");
+            if (kohdeElementti) {
+            kohdeElementti.innerHTML = koirat.join("<br>");
+            }
         //tehtävä 6
-
 
         function RNG() {
             const RNGLista = [];
@@ -33,28 +52,34 @@
                 random = Math.floor(Math.random() * 6) + 1;
                 RNGLista.push(random);
 
-                if (random1 === 6){
+                if (random === 6){
                     break;}
                 }
         return RNGLista;
         }
-
         const tulos = RNG();
-
 
         document.write(tulos + "<br>");
 
-        const k1 = prompt("kerro koiran 1 nimi");
-        const k2 = prompt("kerro koiran 2 nimi");
-        const k3 = prompt("kerro koiran 3 nimi");
-        const k4 = prompt("kerro koiran 4 nimi");
-        const k5 = prompt("kerro koiran 5 nimi");
-        const k6 = prompt("kerro koiran 6 nimi");
-        const koirat = [k1, k2, k3, k4, k5, k6];
-        koirat.reverse();
-        console.log(koirat);
+        //tehtävä 7
+
+        const nopan_sivut = parseInt(prompt("anna sivujen määrä: "))
 
 
+
+        function nopan_heitto(max) {
+            return Math.floor(Math.random() * max) + 1;
+        }
+        
+        const tulos_lista = []
+        let heitto;
+
+        while (heitto !== nopan_sivut) {
+            heitto = nopan_heitto(nopan_sivut);
+            tulos_lista.push(heitto);
+        }
+
+        document.write(tulos_lista)
 
 
     </script>
