@@ -78,8 +78,32 @@
             heitto = nopan_heitto(nopan_sivut);
             tulos_lista.push(heitto);
         }
-
         document.write(tulos_lista)
+
+        //tehtävä 8
+        //Write a function called concat(), which receives an array of strings as a parameter. 
+        //The function returns a string formed by concatenating the elements of the array. (2p)
+        //Example: In a four-item array, there are items Johnny, DeeDee, Joey and Marky.
+        //  The function returns the string JohnnyDeeDeeJoeyMarky.
+        //Do not use array.join() function
+        //you can hardcode the array, no need for prompt().
+        //Print the result to HTML document.
+
+        const lista8 = ["Johnny", "DeeDee", "Joey", "Marky"];
+
+        function concat(list) {
+            let yhdistys = "";
+
+            for (let i = 0; i < list.length; i++) {
+            yhdistys = yhdistys + list[i];
+            }
+            return yhdistys;
+        };
+      
+       const vastaus = concat(lista8);
+
+        document.write(vastaus);
+
 
 
     </script>
