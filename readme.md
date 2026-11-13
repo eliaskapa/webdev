@@ -24,3 +24,16 @@ Completed assignments JS mod 3:
 - Task 8: 2p
 
 Yhteensä: 10p
+
+### JS moduuli 3
+
+[(github linkki)](https://github.com/eliaskapa/webdev/blob/main/js4/module3-starters-main.html)
+
+Completed assignments JS mod 4:
+- Task 1: 2p
+- Task 2: 2p
+- Task 3: 2p
+- Task 7: 2p
+- Task 8: 2p
+
+Yhteensä: 10p
