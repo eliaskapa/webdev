@@ -25,7 +25,7 @@ Completed assignments JS mod 3:
 
 Yhteensä: 10p
 
-### JS moduuli 3
+### JS moduuli 4
 
 [(github linkki)](https://github.com/eliaskapa/webdev/blob/main/js4/module3-starters-main.html)
 
