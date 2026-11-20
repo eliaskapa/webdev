@@ -8,5 +8,6 @@ for (let i = 0; i < names.length; i++) {
 
 }
 
-document.getElementById("target")
-.innerHTML = lista;
+document.getElementById("target").innerHTML = lista;
+
+
