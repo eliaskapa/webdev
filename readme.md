@@ -41,7 +41,7 @@ Yhteensä: 12p
 
 ### Python Flask server
 
-[(github linkki)](https://github.com/eliaskapa/webdev/blob/main/js5-Python-flask/)
+[(github linkki)](https://github.com/eliaskapa/webdev/blob/main/Python-flask/)
 
 Completed assignments JS mod 4:
 - Task 2: 10p
@@ -50,11 +50,11 @@ Yhteensä: 10p
 
 ### JS moduuli 5
 
-[(github linkki)](https://github.com/eliaskapa/webdev/blob/main/js6/)
+[(github linkki)](https://github.com/eliaskapa/webdev/blob/main/js5/)
 
 Completed assignments JS mod 3:
 - Task 1: 2p
-- Task : p
+- Task 2: 3p
 - Task : p
 - Task : p
 - Task : p
